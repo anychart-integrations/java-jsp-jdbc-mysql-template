@@ -8,10 +8,6 @@ import javax.servlet.ServletContextListener;
 
 public class DatabaseContextLIstener implements ServletContextListener {
 
-    static final String DB = "jdbc:mysql://localhost/TEST";
-    static final String USER = "root";
-    static final String PASS = "password";
-
     public void contextInitialized(ServletContextEvent sce) {
         ServletContext context = sce.getServletContext();
         MysqlDataSource ds = new MysqlDataSource();
