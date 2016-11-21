@@ -1,6 +1,6 @@
 package com.anychart.listeners;
 
-import com.mysql.cj.jdbc.MysqlDataSource;
+import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
