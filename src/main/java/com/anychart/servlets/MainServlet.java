@@ -2,7 +2,7 @@ package com.anychart.servlets;
 
 import com.anychart.models.Fruit;
 import com.google.gson.Gson;
-import com.mysql.cj.jdbc.MysqlDataSource;
+import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
